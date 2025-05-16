@@ -1,0 +1,44 @@
+# Файлы зависимостей
+/node_modules
+/.pnp
+.pnp.js
+
+# Локальные настройки
+.env.local
+.env.*.local
+
+# Логи и кэш
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Системные файлы
+.DS_Store
+*.log
+
+# Среда разработки
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Сборка проекта
+/dist
+/.vite
+/out
+/.next
+
+# Кэш тестов
+/coverage
+/.nyc_output
+
+# Автогенерируемые файлы
+*.tsbuildinfo
+
+# Vite-specific
+*.tmp
+.cache
